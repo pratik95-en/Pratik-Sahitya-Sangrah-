@@ -1,3 +1,10 @@
+/* ===== TAP HIGHLIGHT FIX ===== */
+* {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
 /* ===== CSS VARIABLES ===== */
 :root {
   --bg: #f5f0eb;
@@ -725,4 +732,4 @@ input:checked + .slider::before { transform: translateX(18px); }
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
-  
+
